@@ -1,0 +1,63 @@
+html, body {
+    height: 100%; /* Esto asegura que ambos ocupen el 100% de la altura */
+    margin: 0;    /* Elimina márgenes por defecto */
+}
+
+#body {
+    height: 100%;
+    background: linear-gradient(to bottom, #212840, #1f73d4) no-repeat;
+    padding: 0px;
+}
+
+#body > ul {
+    padding-left: 150px;
+    height: 100vh;
+}
+
+.texto{
+    color: #c8c8c8;
+}
+
+.menu-back{
+    background-color: #9a9a9a;
+    border-radius: 55px 0 0 55px;
+}
+
+.menu-back > a {
+    color: #ffffff;
+}
+
+.card-background {
+    background-color: #0065d2;
+    text-align: center;
+}
+
+.card-background > a, h2, p{
+    color: #ffffff;
+}
+
+
+a.button-style {
+    display: inline-block;  /* Hace que el enlace se comporte como un bloque en línea */
+    background-color: #c8c8c8;  /* Color de fondo del botón */
+    color: white;  /* Color del texto */
+    text-align: center;  /* Centra el texto dentro del enlace */
+    padding: 10px 20px;  /* Espaciado interno (alto y ancho) */
+    border-radius: 5px;  /* Bordes redondeados */
+    text-decoration: none;  /* Elimina el subrayado predeterminado del enlace */
+    font-size: 16px;  /* Tamaño de la fuente */
+    transition: background-color 0.3s ease, transform 0.3s ease;  /* Efectos suaves de transición */
+  }
+  
+  /* Estilo cuando el enlace se pasa por encima (hover) */
+  a.button-style:hover {
+    background-color: #c8c8c8;  /* Color de fondo al pasar el mouse */
+    transform: translateY(-2px);  /* Efecto de elevación al pasar el mouse */
+  }
+  
+  /* Estilo cuando el enlace está presionado (activo) */
+  a.button-style:active {
+    background-color: #c8c8c8;  /* Color de fondo al presionar el botón */
+    transform: translateY(1px);  /* Efecto de presión al hacer clic */
+  }
+  
